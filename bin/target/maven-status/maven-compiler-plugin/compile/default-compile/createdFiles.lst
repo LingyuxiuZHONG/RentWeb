@@ -1,0 +1,14 @@
+com/example/isproject/db/entities/Ad.class
+com/example/isproject/ServletInitializer.class
+com/example/isproject/IsprojectApplication.class
+com/example/isproject/db/entities/User.class
+com/example/isproject/db/repositories/UsersRepository.class
+com/example/isproject/db/repositories/AdsRepository.class
+com/example/isproject/controllers/AdController.class
+com/example/isproject/internals/AdsService.class
+com/example/isproject/controllers/RootController.class
+com/example/isproject/db/entities/UserRole.class
+com/example/isproject/controllers/UserController.class
+com/example/isproject/internals/UsersService.class
+com/example/isproject/controllers/LandlordController.class
+com/example/isproject/controllers/AdminController.class

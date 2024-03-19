@@ -1,0 +1,646 @@
+@font-face {
+    font-family: 'Odibee Sans';
+    src: url('fonts/OdibeeSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url('fonts/NunitoSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background: white;
+    margin: 10px;
+    height: 40px;
+}
+
+.logo {
+    color: black;
+    font-size: 30px;
+    margin-left: 10px;
+    font-family: Odibee Sans;
+}
+
+.search-form {
+    display: flex;
+    margin-bottom: 0;
+    margin-left: 30px;
+}
+
+.search-input {
+    background: #F5F6F7;
+    border-radius: 8px 0px 0px 8px;
+    border: 1px #F5F6F7 solid;
+    color: #3B4144;
+    font-size: 15px;
+    font-family: serif;
+    font-weight: 200;
+    word-wrap: break-word;
+    margin-bottom: 0;
+    width: 300px;
+    padding-left: 15px;
+}
+.searchButton{
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    background: #860752;
+    margin-bottom: 0;
+}
+
+
+.logoutButton{
+    margin-left: auto;
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: #C95299;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+
+.content{
+    margin: 10px;
+}
+.title{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.headline{
+    color: #000;
+    font-family: serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+
+.login-reg-button{
+    float: right;
+    text-decoration: none;
+    background-color: #F9B0DB;
+    color: #7F265B;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+/*.page-number {*/
+/*    margin: 0 8px;*/
+/*    padding: 8px;*/
+/*}*/
+.page-number{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%; /* 使边框为圆形 */
+    text-decoration: none; /* 移除下划线 */
+    background-color: #F9B0DB; /* 设置文字颜色 */
+    color: #860752;
+    border: none;
+
+}
+
+
+/*
+Browse
+*/
+
+
+.filters{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+}
+.filter{
+    position: relative;
+    margin-top: 20px;
+    width: auto;
+    white-space: nowrap;
+    margin-right: 20px;
+}
+
+.drawDown{
+    vertical-align: middle;
+    margin-left: 4px;
+    max-height: 20px;
+}
+
+.filterButton{
+    border-radius: 5px;
+    background-color: #d75583;
+    width: 100%;
+    text-align: left;
+    border:none;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: Nunito Sans;
+
+}
+
+.filter-form{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    background-color: #fff;
+    visibility: hidden;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Nunito Sans;
+    padding: 10px;
+}
+.filter-title{
+    color: #afabab;
+}
+.filter-form p,
+.filter-form label,
+.filter-form input{
+    margin: 3px 5px;
+}
+.filter-form input{
+    border: none;
+    background-color: #eee7e7;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.browse-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.house {
+    width: 30%;
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.house img {
+    max-width: 100%;
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+.house-describe {
+    font-size: 14px;
+    color: #333;
+}
+
+.detailButton{
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    border-radius: 10px;
+    background: #7F265B;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 100px;
+}
+
+
+
+
+/*
+adDetail
+ */
+
+.detail-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 20%;
+}
+
+.detail-img {
+    max-width: 100%;
+    max-height: 250px;
+}
+
+.detail-descrip {
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+.detail-title{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.detail-pay{
+    font-size: 30px;
+    font-weight: bolder;
+    float: right;
+
+}
+
+.detail-address{
+    font-weight: normal;
+}
+
+.detail-attri-name{
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.detail-description{
+    font-size: 15px;
+    margin-right: 40%;
+}
+
+
+
+.detail-comments{
+    width: 100%;
+}
+
+.comments-title{
+    color: #504f4f;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.comment-user p,
+.comment-user span {
+    margin: 0;
+}
+
+.comment-user p{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.comment-user span{
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+
+
+
+
+
+/*
+adDetail pump window
+ */
+
+.commentButton{
+    display: block;
+    margin: 0 auto;
+    background-color: #C95299;
+    border-radius: 20px;
+    border: none;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 40px;
+    margin-bottom: 20px;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+}
+
+
+.window {
+    width: 400px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+
+}
+
+
+.window p{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: #C95299;
+}
+
+.window form{
+    display: flex;
+    flex-direction: column;
+}
+
+.window button{
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+
+}
+
+.window label{
+    margin: 10px 0px;
+    color: #504f4f;
+}
+
+.comment-closeButton{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 10px;
+    color: #969494;
+}
+
+.comment-createButton{
+    padding: 5px 20px;
+    align-self: flex-end;
+    margin-top: 10px;
+    background-color: #C95299;
+    color: #ffffff;
+}
+
+.window textarea,
+.window input{
+    border:none;
+    border-radius: 5px;
+    background-color: #efefef;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+/*
+houseManagement
+*/
+
+
+
+.toCreate{
+    margin-left: auto;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    background: #C95299;
+    font-size: 18px;
+    height:30px;
+    padding: 5px;
+}
+
+
+.manage-ads{
+    display: flex;
+    flex-direction: column;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.manage-ads th,td{
+    padding: 8px;
+    text-align:center;
+}
+.manage-ads th{
+    color: #e0bdbd;
+}
+
+.manage-img{
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.EDButton{
+    background: #F9B0DB;
+    color: #7F265B;
+    border-radius: 8px;
+    text-decoration: none;
+    align-items: center;
+    width: 60px;
+    height: 30px;
+    border: none;
+    font-size: 15px;
+}
+
+
+
+
+
+
+/*
+Create
+*/
+.create {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.create-label{
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 10px; /* Adjusted margin for labels */
+}
+
+.create input,
+.create textarea {
+    display: inline-block;
+    width: 30%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 16px; /* Adjusted margin for inputs and textarea */
+    box-sizing: border-box;
+}
+
+
+
+.create-button {
+    background-color: #C95299;
+    color: white;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 20px;
+    width: 30%;
+}
+
+
+
+
+/* adEdit */
+.edit-content{
+    display: flex;
+}
+
+.edit-left{
+    width: 40%;
+}
+
+.edit-right{
+    width: 60%;
+
+}
+.edit-form label,
+.edit-form input{
+    margin-bottom: 20px;
+}
+.edit-form input,
+.edit-form textarea{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+
+.edit-img{
+    max-height: 100%;
+}
+
+.edit-form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+.edit-button {
+    background-color: #C95299;
+    color: white;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+
+/*
+Register
+*/
+
+
+
+.register{
+    display: flex;
+    flex-direction: row;
+}
+
+.left-reg {
+    width: 60%;
+    float: left;
+    margin: 30px;
+}
+
+.right-reg {
+    width: 40%;
+    padding: 20px;
+}
+
+
+.left-img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+
+
+.login-reg-title{
+    margin: 70px 75px 30px 75px;
+}
+
+.big-title{
+    color: #525252;
+    font-family: Nunito Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+.welcome{
+    color: #525252;
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.login-reg {
+    max-width: 300px;
+    margin: 0 75px;
+    font-family: Nunito Sans;
+}
+
+
+.login-reg label{
+    display: block;
+    margin-bottom: 3px;
+    font-size: 13px;
+    color: #525252;
+}
+
+.login-reg input ,
+.login-reg select{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    color: #525252;
+    border-color: #b2acac;
+    border-radius: 5px;
+}
+
+.login-reg input[type="submit"]{
+    background-color: #C95299;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
